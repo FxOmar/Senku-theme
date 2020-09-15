@@ -21,7 +21,7 @@
 			"scope": "comment",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#7A7267"
+				"foreground": "#696385"
 			}
 		},
 		{
@@ -35,6 +35,12 @@
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#a35ee4"
+			}
+		},
+		{
+			"scope": "meta.object-literal.key.js",
 			"settings": {
 				"foreground": "#a35ee4"
 			}
@@ -61,6 +67,13 @@
 			"scope": "variable",
 			"settings": {
 				"foreground": "#207241"
+			}
+		},
+		{
+			"name": "This",
+			"scope": "variable.language.this.js",
+			"settings": {
+				"foreground": "#DB784D"
 			}
 		},
 		{
@@ -472,7 +485,13 @@
 		},
 		{
 			"name": "HTML Tag Name",
-			"scope": "entity.name.tag.html",
+			"scope": [
+				"entity.name.tag",
+				"entity.name.tag.html",
+				"entity.name.tag.block.any.html",
+				"meta.tag.block.any.html",
+				"text.html.vue-html"
+			],
 			"settings": {
 				"foreground": "#81b29a"
 			}
