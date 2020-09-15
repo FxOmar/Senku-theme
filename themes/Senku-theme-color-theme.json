@@ -202,7 +202,7 @@
 			"name": "JSON String",
 			"scope": "meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
-				"foreground": "#eaae2e"
+				"foreground": "#2bd3cb"
 			}
 		},
 		{
@@ -277,9 +277,19 @@
 			}
 		},
 		{
+			"scope": ["support.type.property-name.json.comments",
+				"support.type.property-name.json",
+				"string.json",
+				"meta.structure.dictionary.json"
+			],
+			"settings": {
+				"foreground": "#a35ee4"
+			}
+		},
+		{
 			"scope": "meta.structure.dictionary.value.json string.quoted.double.json",
 			"settings": {
-				"foreground": "#eaae2e"
+				"foreground": "#2bd3cb"
 			}
 		},
 		{
@@ -525,6 +535,12 @@
 			"scope": "text.html.derivative",
 			"settings": {
 				"foreground": "#e6cfcf"
+			}
+		},
+		{
+			"scope": "text.html.php",
+			"settings": {
+				"foreground": "#81b29a"
 			}
 		},
 	],
