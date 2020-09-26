@@ -69,20 +69,13 @@
 				"foreground": "#207241"
 			}
 		},
-		{
-			"name": "This",
-			"scope": "variable.language.this.js",
-			"settings": {
-				"foreground": "#DB784D"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#DB784D"
-			}
-		},
+		// {
+		// 	"name": "Keyword",
+		// 	"scope": "keyword",
+		// 	"settings": {
+		// 		"foreground": "#DB784D"
+		// 	}
+		// },
 		{
 			"name": "Storage",
 			"scope": "storage",
@@ -125,10 +118,10 @@
 		},
 		{
 			"name": "Function argument",
-			"scope": "variable.parameter",
+			"scope": ["variable.parameter" ],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#a2f13a"
+				"foreground": "#95CC5E"
 			}
 		},
 		{
@@ -137,6 +130,13 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#95CC5E"
+			}
+		},
+		{
+			"scope": "variable.other.object.property.js",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DB784D"
 			}
 		},
 		{
@@ -255,7 +255,10 @@
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": ["keyword" ,
+				"storage.modifier.async.js", 
+				"variable.language.this.js", 
+				"storage.type.function.arrow.js"],
 			"settings": {
 				"foreground": "#ca264f"
 			}
@@ -280,7 +283,8 @@
 			"scope": ["support.type.property-name.json.comments",
 				"support.type.property-name.json",
 				"string.json",
-				"meta.structure.dictionary.json"
+				"meta.structure.dictionary.json",
+				"variable.other.property.js"
 			],
 			"settings": {
 				"foreground": "#eaae2e"
@@ -334,7 +338,7 @@
 		},
 		{
 			"name": "Function argument",
-			"scope": ["variable.other.object.js",
+			"scope": [
 				"meta.function-call.js",
 				"meta.var.expr.js",
 				"meta.block.js",
@@ -349,7 +353,7 @@
 			"name": "Function argument",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#2bd3cb"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -520,7 +524,7 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#C7C7C7"
 			}
 		},
 		{
