@@ -36,7 +36,7 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#a35ee4"
+				"foreground": "#DB784D"
 			}
 		},
 		{
@@ -69,13 +69,6 @@
 				"foreground": "#207241"
 			}
 		},
-		// {
-		// 	"name": "Keyword",
-		// 	"scope": "keyword",
-		// 	"settings": {
-		// 		"foreground": "#DB784D"
-		// 	}
-		// },
 		{
 			"name": "Storage",
 			"scope": "storage",
@@ -255,12 +248,19 @@
 			}
 		},
 		{
+			"scope": "variable.language.this.js",
+			"settings": {
+				"foreground": "#19d8a8"
+			}
+		},
+		{
 			"scope": ["keyword" ,
 				"storage.modifier.async.js", 
-				"variable.language.this.js", 
-				"storage.type.function.arrow.js"],
+				"storage.type.function.arrow.js",
+				"support.type.object.module.js"
+			],
 			"settings": {
-				"foreground": "#ca264f"
+				"foreground": "#d81949"
 			}
 		},
 		{
