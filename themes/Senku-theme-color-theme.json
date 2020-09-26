@@ -42,7 +42,7 @@
 		{
 			"scope": "meta.object-literal.key.js",
 			"settings": {
-				"foreground": "#a35ee4"
+				"foreground": "#eaae2e"
 			}
 		},
 		{
@@ -283,7 +283,7 @@
 				"meta.structure.dictionary.json"
 			],
 			"settings": {
-				"foreground": "#a35ee4"
+				"foreground": "#eaae2e"
 			}
 		},
 		{
