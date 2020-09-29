@@ -1,13 +1,23 @@
-# README
-## This is the README for your extension "senku"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Senku for [Visual Studio Code](http://code.visualstudio.com)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Screenshot](https://res.cloudinary.com/di8rsna4o/image/upload/v1601412234/s_do1tes.png )
+
+## Install
+
+## Team
+
+<!-- This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors). -->
+
+[![Omar chadidi](https://avatars3.githubusercontent.com/u/5240018?v=3&s=70)](https://github.com/FxOmar) |
+:---: |
+[Omar Chadidi](https://github.com/FxOmar) |
+
+## Contributing
+
+<!-- If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md). -->
+
+## License
 
 **Enjoy!**
