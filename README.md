@@ -10,7 +10,7 @@
 
 <!-- This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors). -->
 
-[![Omar chadidi](https://res.cloudinary.com/di8rsna4o/image/upload/v1601413177/fMk4EYIn_400x400_tlqgig.jpg)](https://github.com/FxOmar) |
+[![Omar chadidi](https://res.cloudinary.com/di8rsna4o/image/upload/c_fit,q_100,w_77/v1601413177/fMk4EYIn_400x400_tlqgig.jpg)](https://github.com/FxOmar) |
 :---: |
 [Omar Chadidi](https://github.com/FxOmar) |
 
